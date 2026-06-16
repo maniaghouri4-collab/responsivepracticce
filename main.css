@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "lato";
+}
+@font-face{
+    font-family:"lato" ;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+@font-face{
+    font-family: "latolight";
+    src: url(./fonts/Lato-Light.ttf);
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 70px;
+    justify-content: space-around;
+    
+    
+}
+.div1{
+    display: flex;
+    gap: 12px;
+}
+
+.bluecircle{
+    width: 30px;
+    height: 30px;
+    background-color: #5267DF ;
+    border-radius: 50%;
+}
+.logo{
+    padding-top: 7px;
+    padding-left: 5px;
+    
+}
+.div2 ul{
+    display: flex;
+    gap: 70px;
+    text-decoration: none;
+}
+.div2 ul li{
+    list-style:none;
+}
+.div2 ul li button{
+    padding: 11px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: rgb(250 89 89);
+}
+.up{
+   position: relative;
+   bottom: 6px;
+}
+/* break point */
+.ri-bar-chart-horizontal-line{
+   display: none;
+}
+.heromain{
+    display: flex;
+    padding-left: 240px;
+    gap: 60px;
+    align-items: center;
+    padding-top: 100px;
+}
+.rectangle{
+    width: 50%;
+    background-color: #5267DF;
+    height: 19rem;
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+     position: absolute;
+    right: 0;
+  
+    top: 53%;
+    z-index: -1;
+    
+    
+    /* z-index: -1; */
+}
+.herodiv1 {
+width: 38%;
+font-size: 20px;
+
+display: flex;
+flex-direction: column;
+gap: 40px;
+padding-right: 50px;
+}
+.h1 h1{
+   transform: scaleY(1.7px);
+   line-height: 60px;
+   font-family: "lato";
+   font-size: 50px;
+  
+    
+}
+.lineheight{
+line-height: 25px;
+color: gray;
+padding-right: 0px;
+width: 120%;
+margin-top: 22px;
+}
+.button button{
+     padding: 15px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 9px 9px rgba(0, 0,0, 0.1) ;
+    font-family: "lato";
+    font-size:17px ;
+    margin-top: 10px;
+   
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+    
+}
+.firefox:hover{
+   background-color: #5267DF;
+transition: background-color 1s;
+}
+.chrome{
+    background-color: #5267DF;
+}
+.herodiv2{
+    width: 35%;
+}
+/* break point */
